@@ -1,0 +1,2 @@
+curahbro = float(input("Masukkan nilai curah hujan : "))
+hujanbro = print("Curah hujan ekstrem") if curahbro > 100 else print("Curah hujan lebat") if curahbro > 50 else print("Curah hujan sedang") if curahbro > 21 else print("Curah hujan ringan") if curahbro > 0.5 else print("Cuaca Terang/Berawan")
